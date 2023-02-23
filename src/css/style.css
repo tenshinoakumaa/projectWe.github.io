@@ -1,0 +1,491 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #000;
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.navbar-brand img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 20%;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.brandMg {
+  padding-left: 5%;
+}
+
+.navbar-brand {
+  cursor: default;
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 1600px;
+  height: 720px;
+}
+
+.carousel {
+  max-width: 100%;
+}
+
+.black {
+  opacity: 0.4;
+  width: 10000000px;
+  height: 720px;
+  z-index: 1;
+  position: absolute;
+  background-color: #000;
+}
+
+.carousel-caption {
+  position: absolute;
+  z-index: 3;
+}
+.carousel-caption h5 {
+  color: #ffffff;
+}
+.carousel-caption p {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+}
+.news div {
+  margin: 2.5% 2.5%;
+}
+.news span {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 60px;
+}
+
+.card {
+  padding-top: 20px;
+  margin-bottom: 5%;
+}
+.card img {
+  height: 240px;
+}
+
+@media screen and (max-width: 450px) {
+  .navbar-brand {
+    width: 200px;
+  }
+  .news span {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .navbar-brand {
+    width: 180px;
+  }
+  .navbar-brand img {
+    width: 80px;
+  }
+  .news span {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 663px) {
+  .news {
+    justify-content: center;
+  }
+}
+.carousel-control-prev-icon {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/93/93634.png");
+}
+
+.carousel-control-next-icon {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/3625/3625253.png");
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}
+
+.carousel-indicators {
+  position: absolute;
+  z-index: 20;
+}
+
+.nav-item {
+  margin-left: 4%;
+}
+
+.forButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.btn-close {
+  position: relative;
+  bottom: 28px;
+  left: 90%;
+}
+
+.carousel-caption h5 {
+  font-size: 50px;
+}
+.carousel-caption p {
+  font-size: 25px;
+  margin-bottom: 250px;
+}
+
+.complexInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.infoAboutUs {
+  padding: 30px 30px;
+  border-radius: 70px;
+  background-color: #f4f6f9;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+}
+.infoAboutUs a {
+  color: #cc4cfe;
+  text-decoration: none;
+}
+.infoAboutUs img {
+  width: 20px;
+}
+.infoAboutUs_mainText {
+  font-size: 25px;
+  color: #ABB3C7;
+}
+.infoAboutUs_secondText {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .complexInfo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainInfoImg {
+    margin-right: 0px;
+  }
+}
+.employees {
+  display: flex;
+  justify-content: center;
+}
+.employees div {
+  margin: 2.5% 2.5%;
+}
+.employees span {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 60px;
+}
+
+.cText {
+  max-width: 600px;
+}
+
+.secondCarousel {
+  margin: 0;
+  border-radius: 100px;
+  background-color: #000000;
+}
+.secondCarousel img {
+  opacity: 0.5;
+  border-radius: 100px;
+  width: 600px;
+  height: 300px;
+}
+
+.carousel-inner-2 {
+  height: 300px;
+}
+
+.carText {
+  z-index: 100;
+  position: absolute;
+  top: 15%;
+  right: 50%;
+}
+
+.carousel-item-2 {
+  height: 300px;
+}
+.carousel-item-2 p {
+  width: 600px;
+  position: absolute;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.employees div {
+  margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .infoAboutUs {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .infoAboutUs {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .infoAboutUs {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .infoAboutUs {
+    width: 280px;
+  }
+}
+.carousel-control-next {
+  text-decoration: none;
+}
+
+.carousel-control-prev {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1407px) {
+  .carText {
+    position: absolute;
+    top: 15%;
+    right: 60%;
+  }
+  .carousel-item-2 p {
+    width: 600px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .carText {
+    position: absolute;
+    top: 15%;
+    right: 70%;
+  }
+  .carousel-item-2 p {
+    width: 600px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .carText {
+    position: absolute;
+    top: 15%;
+    right: 80%;
+  }
+  .carousel-item-2 p {
+    width: 500px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .carText {
+    position: absolute;
+    top: 15%;
+    right: 95%;
+  }
+  .carousel-item-2 p {
+    width: 500px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .carText {
+    position: absolute;
+    top: 15%;
+    right: 95%;
+  }
+  .carousel-item-2 p {
+    width: 400px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .carText {
+    position: absolute;
+    top: 15%;
+    right: 95%;
+  }
+  .carousel-item-2 p {
+    width: 300px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .carText {
+    position: absolute;
+    top: 15%;
+    right: 95%;
+  }
+  .carousel-item-2 p {
+    width: 250px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 390px) {
+  #employees span {
+    font-size: 40px;
+  }
+}
+.btn-close {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+}
+
+.secondBtnCarousel-prev {
+  background-image: none;
+}
+
+.secondBtnCarousel-next {
+  background-image: none;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+.modal-body span {
+  color: #000;
+  margin-bottom: 0;
+}
+.modal-body img {
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50px;
+}
+
+.modal-footer button {
+  width: 100%;
+}
+
+.modal-content {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.event-info {
+  margin: 0 auto;
+  justify-self: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 30px 0px;
+  border-radius: 16px;
+  box-shadow: 0 0 0 1px #f2f2f2;
+}
+
+.event-details {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 10%;
+}
+
+.infoAboutUs {
+  font-size: 20px;
+}
+
+.events {
+  display: flex;
+  justify-content: center;
+}
+
+.event {
+  height: 300px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-btn {
+  background: #fff;
+}
+.text-btn:hover {
+  background: #999898;
+}
+
+.text {
+  text-align: center;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+}
+
+.modalEvent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-image: url("http://studcar.ru/wp-content/uploads/2017/03/event-menedjer-800x471.png");
+  height: 200px;
+}
+
+.firstE {
+  background-image: url("http://studcar.ru/wp-content/uploads/2017/03/event-menedjer-800x471.png");
+}
+
+.secondE {
+  background-image: url("https://storymil.com/wp-content/uploads/2016/09/Event.jpg");
+}
+
+.thirdE {
+  background-image: url("http://art-imxo.com.ua/wp-content/uploads/2012/06/salut-600.jpg");
+}
+
+.fourthE {
+  background-image: url("https://postium.ru/wp-content/uploads/2018/05/Special-events.jpg");
+}
+
+.fifthE {
+  background-image: url("https://mb-ar.ru/ckeditor/images/913-7c0e7c6e2ad56bc2fe47ab230d326567.jpg");
+}/*# sourceMappingURL=style.css.map */
