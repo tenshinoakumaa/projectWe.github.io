@@ -27,14 +27,14 @@ function checking(event) {
   event.preventDefault();
   let login = document.getElementById('inputEmail3').value;
   let password = document.getElementById('inputPassword3').value;
-  if (login == 'Tenshi' && password == 'noAkuma') {
+  if (login == 'Tenshi' && password == 'noAkumaa') {
     document.querySelector('.loginAccount').textContent='Tenshi'
     let exitAccount = document.createElement('button');
     exitAccount.setAttribute('id','exitAccount');
     exitAccount.textContent = 'Выйти'
     exitAccount.classList+=('btn')
-    exitDiv.appendChild(exitAccount);
-    console.log(exitAccount);
+    // exitDiv.appendChild(exitAccount);
+    // console.log(exitAccount);
     loginSite.parentElement.parentElement.remove();
     addButton();
   } else {

@@ -29,6 +29,9 @@ body {
   cursor: default;
 }
 
+.carousel-item span {
+  color: #fff;
+}
 .carousel-item img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -212,7 +215,7 @@ body {
 .secondCarousel {
   margin: 0;
   border-radius: 100px;
-  background-color: #000000;
+  background-color: #000;
 }
 .secondCarousel img {
   opacity: 0.5;
@@ -429,63 +432,4 @@ body {
 
 .infoAboutUs {
   font-size: 20px;
-}
-
-.events {
-  display: flex;
-  justify-content: center;
-}
-
-.event {
-  height: 300px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.text-btn {
-  background: #fff;
-}
-.text-btn:hover {
-  background: #999898;
-}
-
-.text {
-  text-align: center;
-}
-
-.modal-body {
-  display: flex;
-  align-items: center;
-}
-
-.modalEvent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  background-image: url("http://studcar.ru/wp-content/uploads/2017/03/event-menedjer-800x471.png");
-  height: 200px;
-}
-
-.firstE {
-  background-image: url("http://studcar.ru/wp-content/uploads/2017/03/event-menedjer-800x471.png");
-}
-
-.secondE {
-  background-image: url("https://storymil.com/wp-content/uploads/2016/09/Event.jpg");
-}
-
-.thirdE {
-  background-image: url("http://art-imxo.com.ua/wp-content/uploads/2012/06/salut-600.jpg");
-}
-
-.fourthE {
-  background-image: url("https://postium.ru/wp-content/uploads/2018/05/Special-events.jpg");
-}
-
-.fifthE {
-  background-image: url("https://mb-ar.ru/ckeditor/images/913-7c0e7c6e2ad56bc2fe47ab230d326567.jpg");
 }/*# sourceMappingURL=style.css.map */

@@ -121,41 +121,43 @@
 
     <div class="container news row" id="news">
       <span> Мероприятия </span>
-      <div class="row events cont">
-        <div class="col-md-5 event firstE"> 
-            <div class="text">       
-                 <span> We event </span>
-            </div>
-            <button type="button" class="btn text-btn" data-bs-toggle="modal" data-bs-target="#exampleModal0">
-              Подробнее
-            </button>
+      <div class="card col-4" style="width: 18rem;">
+        <img src="img/IFO.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">IFO(Intro Freshman Math Olympiad)</h5>
+          <p class="card-text">Intra Freshman Math Olympiad специально для самых умных парней 1-го курса нашего факультета. </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal0">
+            Подробнее
+        </button>
+        </div>
+      </div>
 
-        </div>
-        <div class="col-md-5 event secondE">
-          <div class="text">       
-            <span> We event </span>
-       </div>
-       <button class="btn text-btn">Подробнее</button>
-        </div>
-        <div class="col-md-3 event thirdE">
-          <div class="text">       
-            <span> We event </span>
-       </div>
-       <button class="btn text-btn">Подробнее</button>
-        </div>
-        <div class="col-md-4 event fourthE">
-          <div class="text">       
-            <span> We event </span>
-       </div>
-       <button class="btn text-btn">Подробнее</button>
-        </div>
-        <div class="col-md-3 event fifthE">
-          <div class="text">       
-                 <span> We event </span>
-            </div>
-            <button class="btn text-btn">Подробнее</button>
-        </div>
-      </div>    
+
+      
+   
+      
+    <div class="card" style="width: 18rem;">
+      <img src="img/BookLover.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Book lover</h5>
+        <p class="card-text">WE командасы сіздерге 01.02.2023 - 16.02.2023 аралығында болатын “Book lover” жарысына қатысуды ұсынады.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+          Подробнее
+      </button>
+      </div>
+      
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="img/BootCamp.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">BootCamp</h5>
+        <p class="card-text">Не решили как проведете зимние каникулы? Наша команда вместе с TechnoPark SDU организовывают Bootcamp.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+          Подробнее
+      </button>      </div>
+    </div>
+    
 
 
     </div>
@@ -191,11 +193,11 @@
           </div>
           
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon secondBtnCarousel" aria-hidden="true"> </span>
+          <span class="carousel-control-prev-icon secondBtnCarousel-prev" aria-hidden="true"> < </span>
           <span class="visually-hidden">Предыдущий</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon secondBtnCarousel" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon secondBtnCarousel-next" aria-hidden="true"> > </span>
           <span class="visually-hidden">Следующий</span>
         </button>
       </div>
@@ -238,28 +240,24 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-              <div class="modalEvent col-6">
-                <button class="btn text-btn" onclick="document.location='https://google.com'">Записаться</button>
-              </div>
-
-            <div class="event-info">
-              <div class="event-details">
-                <h5 class="item-title">When?</h5>
-                <p class="item-text" id="date">1 December</p>
-              </div>
-              <div class="event-details">
-                <h5 class="item-title">What time?</h5>
-                <p class="item-text">7 am</p>
-              </div>
-              <div class="event-details">
-                <h5 class="item-title">Where?</h5>
-                <p class="item-text">Red Hall</p>
-              </div>
-            </div>
-            
+            <span> IFO</span>
+            <img src="img/IFO.png" alt="">
             <span class="aboutEvent"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span>
           </div>
-          
+          <div class="event-info">
+            <div class="event-details">
+              <h5 class="item-title">When?</h5>
+              <p class="item-text" id="date">1 December</p>
+            </div>
+            <div class="event-details">
+              <h5 class="item-title">What time?</h5>
+              <p class="item-text">7 am</p>
+            </div>
+            <div class="event-details">
+              <h5 class="item-title">Where?</h5>
+              <p class="item-text">Red Hall</p>
+            </div>
+          </div>
           <div class="modal-footer">
             <button class="btn btn-primary"> Записаться </button>
           </div>
